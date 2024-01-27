@@ -1,0 +1,107 @@
+body{
+    background-color: rgba(0, 0, 0, 0.93);
+    color: rgb(225, 246, 246);
+    
+  }
+  #header{
+      max-height: 150px;
+      min-height: 80px;
+      background-color: black;
+      color: beige;
+      width: auto;
+      box-sizing: border-box;
+      cursor: pointer;
+      text-align: center;
+      align-items: center;
+      font-size: 15px;
+      /* position: sticky;
+      top: 0; */
+  }
+    #right{
+        padding-right: 500px;
+        width: auto;
+        font-size: 35px;
+
+    }
+    .body{
+      text-align: center;
+      font-size: 65px;
+      margin-top: 115px;
+      color: whitesmoke;
+    }
+    #line{
+       text-align: center;
+      font-size: 18px;
+      padding: 100px;
+      color: rgb(219, 218, 218);
+    }
+    .down{
+      font-weight: 300;
+      font-size: 85px;
+      text-align: center;
+    }
+    #first{
+      text-align: center;
+      align-items: center;
+      padding: 75px;
+      
+    }
+    img{
+        height: 400px;
+    }
+    #illustrator{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 15px;
+
+    }
+    #nature{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 15px;
+    }
+    #second{
+      text-align: center;
+      align-items: center;
+      padding: 75px;
+    }
+    #graphic{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 25px;
+    
+    }
+    #animal{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 25px;
+    
+    }
+    
+    @media screen and (max-width: 720px){
+      #header{
+        text-align: center;
+      }
+      #right{
+        text-align: center;
+        padding: 5%;
+      }
+    }
+    @media screen and (max-width: 100px) and (min-width:721px){
+        #right{
+            padding-left: 375px;
+            color: red;
+        }
+    }
