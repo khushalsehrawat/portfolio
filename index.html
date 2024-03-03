@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Example</title>
     
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
@@ -16,7 +16,167 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="prt.css">
+  <style type="text/css">
+    body{
+    background-color: rgba(0, 0, 0, 0.93);
+    color: rgb(225, 246, 246);
+    
+  }
+  #header{
+    display: flex;
+      max-height: 150px;
+      min-height: 80px;
+      background-color: black;
+      color: beige;
+      width: auto;
+      box-sizing: border-box;
+      cursor: pointer;
+      text-align: center;
+      align-items: center;
+      font-size: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+  }
+    #right{
+        padding-right: 500px;
+        width: auto;
+        font-size: 35px;
+
+    }
+    .body{
+      text-align: center;
+      font-size: 65px;
+      margin-top: 115px;
+      color: whitesmoke;
+    }
+    #line{
+       text-align: center;
+      font-size: 18px;
+      padding: 100px;
+      color: rgb(219, 218, 218);
+    }
+    .down{
+      font-weight: 300;
+      font-size: 85px;
+      text-align: center;
+    }
+    #first{
+      text-align: center;
+      align-items: center;
+      padding: 20px;
+      
+    }
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+    img{
+        height: 400px;
+    }
+    #illustrator{
+        height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 20px;
+      font-size: medium;
+
+    }
+    #nature{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 10px;
+      font-size: medium;
+    }
+    #sehbcond{
+      text-align: center;
+      align-items: center;
+      padding: 75px;
+    }
+    #graphic{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 20px;
+      font-size: medium;
+    
+    }
+    #animal{
+      min-height: 55px;
+      max-height: 55px;
+      background-color: black;
+      color: beige;
+      text-align: center;
+      padding: 2px;
+      font-size: medium;
+    
+    }
+    a{
+      color: beige;
+    }
+    a:hover{
+      color: beige;
+      text-decoration: none;
+    }
+    #left{
+        color: inherit;
+        text-decoration: none;
+        text-decoration-color: beige;
+    }
+    
+    #phone-view{
+      background-color: rgba(26, 33, 45, 1) ;
+      color: #FFC800;
+    }
+    h3{
+      display: none;
+      text-align: center;
+      line-height: 5;
+    }
+    @media screen and (max-width: 720px){
+      #header{
+        text-align: center;
+      }
+      #right{
+        text-align: center;
+        padding: 5%;
+      }
+    }
+    @media screen and (min-width: 100px) and (max-width:721px){
+        #right{
+          text-align: center;
+            color: gold;
+        }
+        #left{
+          display: none;
+        }
+        h3{
+          display: flow-root;
+      }
+    }
+  </style>
 
   <script>
 $(document).ready(function(){
