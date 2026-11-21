@@ -1,0 +1,13 @@
+{
+  "sites": [
+    {
+      "name": "portfolio",
+      "root": ".",
+      "base_url": "https://khushalsehrawat.github.io/portfolio/",
+      "pages": {
+        "index.html": "https://khushalsehrawat.github.io/portfolio/",
+        "portfolio.html": "https://khushalsehrawat.github.io/portfolio/portfolio.html"
+      }
+    }
+  ]
+}
